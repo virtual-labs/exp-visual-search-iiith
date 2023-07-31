@@ -1,1 +1,2 @@
-### Aim of the experiment
+## Aim of the Experiment
+The aim of this experiment is to investigate visual search processes and explore the singleton and conjunction phenomena. Through the Virtual Lab, students will gain a theoretical understanding of visual search and then conduct a digital experiment to examine these phenomena.
