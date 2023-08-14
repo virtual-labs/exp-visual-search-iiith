@@ -1,1 +1,3 @@
-### Link your references in here
+### References
+1) Harris, A. M., Jacoby, O., Remington, R. W., Travis, S. L., & Mattingley, J. B. (2019). Taking a closer look at visual search: Just how feature-agnostic is singleton detection mode? In Attention, Perception, &amp; Psychophysics (Vol. 81, Issue 3, pp. 654–665). Springer Science and Business Media LLC. https://doi.org/10.3758/s13414-018-01642-y
+2) Geyer, T., Müller, H. J., & Krummenacher, J. (2006). Cross-trial priming in visual search for singleton conjunction targets: Role of repeated target and distractor features. In Perception &amp; Psychophysics (Vol. 68, Issue 5, pp. 736–749). Springer Science and Business Media LLC. https://doi.org/10.3758/bf03193697
