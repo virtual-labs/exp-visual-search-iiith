@@ -1,0 +1,8 @@
+
+/home/runner/work/exp-visual-search-iiith/exp-visual-search-iiith/experiment/simulation/js/main.js
+  14:7   warning  'correctCount' is assigned a value but never used     no-unused-vars
+  15:7   warning  'totalSearchTime' is assigned a value but never used  no-unused-vars
+  22:11  warning  'colors' is assigned a value but never used           no-unused-vars
+
+✖ 3 problems (0 errors, 3 warnings)
+

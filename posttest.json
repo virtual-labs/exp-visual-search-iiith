@@ -1,0 +1,22 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "What is the main difference between singleton and conjunctive visual search",
+        "answers": {
+          "a": "Singleton search involves searching for a specific color, while conjunctive search involves searching for multiple colors.",
+          "b": "Singleton search is faster and more accurate than conjunctive search.",
+          "c": "Singleton search involves searching for a target with a single distinct feature, while conjunctive search involves searching for a target defined by a combination of features.",
+          "d": "Singleton search is more challenging than conjunctive search."
+        },
+        "explanations": {
+          "a": "",
+          "b": "",
+          "c": "",
+          "d": ""
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }

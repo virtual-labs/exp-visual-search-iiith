@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#game-container {
+  position: relative; /* Ensure that the letters are positioned relative to this container */
+  width: 400px;
+  height: 400px;
+  border: 2px solid white;
+  overflow: hidden;
+  background-color: black;
+}
+
+.t-letter {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+}
+
+#message-container {
+  font-size: 18px;
+  color: black;
+  margin-top: 20px;
+}
+
+.instructions-box {
+  max-height: 70px;
+  overflow: hidden;
+  transition: all .5s ease;
+}
+
+.instructions-box.expand {
+  max-height: 400px;
+}
+
+.v-instruction-container {
+  border:.2rem solid #97d23d;
+  justify-content: flex-start;
+  width: 80%;
+  margin: 0 auto;
+}
