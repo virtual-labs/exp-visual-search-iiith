@@ -1,22 +1,56 @@
 {
-    "version": 2.0,
-    "questions": [
-      {
-        "question": "What is the main difference between singleton and conjunctive visual search",
-        "answers": {
-          "a": "Singleton search involves searching for a specific color, while conjunctive search involves searching for multiple colors.",
-          "b": "Singleton search is faster and more accurate than conjunctive search.",
-          "c": "Singleton search involves searching for a target with a single distinct feature, while conjunctive search involves searching for a target defined by a combination of features.",
-          "d": "Singleton search is more challenging than conjunctive search."
-        },
-        "explanations": {
-          "a": "",
-          "b": "",
-          "c": "",
-          "d": ""
-        },
-        "correctAnswer": "c",
-        "difficulty": "beginner"
-      }
-    ]
-  }
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the main difference between singleton and conjunctive visual search?",
+      "answers": {
+        "a": "Singleton search involves searching for a specific color, while conjunctive search involves searching for multiple colors.",
+        "b": "Singleton search is faster and more accurate than conjunctive search.",
+        "c": "Singleton search involves searching for a target with a single distinct feature, while conjunctive search involves searching for a target defined by a combination of features.",
+        "d": "Singleton search is more challenging than conjunctive search."
+      },
+      "explanations": {
+        "a": "This is incorrect because conjunctive search is not only about multiple colors but also other features like shape.",
+        "b": "Although singleton search is generally faster, this option does not fully explain the difference.",
+        "c": "Correct! Singleton search focuses on one distinct feature, while conjunctive search requires combining multiple features.",
+        "d": "This is incorrect; conjunctive search is more challenging than singleton search."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is a distractor in a visual search task?",
+      "answers": {
+        "a": "An object that helps in locating the target.",
+        "b": "An object that is irrelevant and intended to divert attention from the target.",
+        "c": "An object that is identical to the target.",
+        "d": "An object used to speed up response time."
+      },
+      "explanations": {
+        "a": "Distractors do not help in locating the target; they are meant to divert attention.",
+        "b": "Correct! A distractor is an irrelevant object that makes it harder to find the target.",
+        "c": "This is incorrect because distractors are not identical to the target.",
+        "d": "Distractors generally slow down response time, not speed it up."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does increasing the set size affect response time in conjunctive search?",
+      "answers": {
+        "a": "Response time decreases as set size increases.",
+        "b": "Response time remains the same regardless of set size.",
+        "c": "Response time increases because more items need to be analyzed to locate the target.",
+        "d": "Response time is unaffected in conjunctive search but increases in singleton search."
+      },
+      "explanations": {
+        "a": "This is incorrect; increasing the set size generally increases response time in conjunctive search.",
+        "b": "This is incorrect because set size directly influences the time needed to locate the target in conjunctive search.",
+        "c": "Correct! In conjunctive search, response time increases as the set size grows because more items must be examined.",
+        "d": "This is incorrect; conjunctive search is affected by set size, while singleton search is less influenced."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

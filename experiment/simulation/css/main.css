@@ -2,49 +2,142 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  /* justify-content: center; */
   margin: 0;
+  background-color: #f8f9fa; /* Subtle background color for better contrast */
+  font-family: Arial, sans-serif; /* Clean, readable font */
 }
 
-.heading {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
+/* Game Container */
 #game-container {
-  position: relative; /* Ensure that the letters are positioned relative to this container */
+  position: relative; /* Letter positioning relative to this container */
   width: 400px;
   height: 400px;
-  border: 2px solid white;
-  overflow: hidden;
-  background-color: black;
+  border: 3px solid #fff; /* White border for sharp contrast */
+  background-color: #000; /* Black background for maximum visibility */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure letters stay within bounds */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
+/* T-Letter Styling */
 .t-letter {
-  font-size: 1.2rem;
+  font-size: 1.5rem; /* Slightly larger for better visibility */
   font-weight: bold;
+  color: #ff6600; /* Default color for better contrast */
   position: absolute;
+  user-select: none; /* Prevent accidental text selection */
+  transition: transform 0.1s ease; /* Smooth movement */
 }
 
+/* Message Container Styling */
 #message-container {
-  font-size: 18px;
-  color: black;
+  font-size: 1.2rem;
+  color: #333; /* Dark grey for readability */
   margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #e9ecef; /* Light grey background for subtle emphasis */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.v-button{
+  margin: 20px;
+  padding: 10px 20px;
+  border: none;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 500px) {
+  #game-container {
+    width: 90%; /* Adjust container for smaller screens */
+    height: 300px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .t-letter {
+    font-size: 1.2rem; /* Adjust text size for smaller screens */
+  }
 }
 
 .instructions-box {
   max-height: 70px;
   overflow: hidden;
-  transition: all .5s ease;
+  padding: 15px;
+  background-color: #e8f4e8;
+  border: 2px solid #97d23d;
+  border-radius: 8px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
 }
 
 .instructions-box.expand {
   max-height: 400px;
+  padding-bottom: 20px;
 }
 
+/* Instruction Container */
 .v-instruction-container {
-  border:.2rem solid #97d23d;
-  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0.2rem solid #97d23d;
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.v-instruction-container ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.v-instruction-container li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Button Styles */
+button {
+  background-color: #97d23d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #7bb32f;
+}
+
+.v-collapsible:after {
+  content: '\2193'; /* Downward arrow */
+  scale: 2.5;
+  font-weight: bold;
+  color: #ff0000;
+  transition: transform 0.3s ease; /* Smooth rotation */
+}
+
+.v-collapsible-active:after {
+  transform: rotate(180deg); /* Rotate 180 degrees */
+}
+
+body{
+  margin-bottom: 30px;
 }

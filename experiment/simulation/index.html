@@ -8,21 +8,36 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <h1 class="heading">Visual Search</h1>
-    <div class="v-collapsible-instruction-container v-instruction-container">
-      <div id="instruction-title" class="v-collapsible is-size-5">Instructions<br>To perform Visual Search Task</div>
-      <div class="v-content">
-        <ul style="list-style: disc;text-align:left">
-          <li>There will be Upright and Inverted T's of Orange and Blue color.</li>
-          <li>User needs to press the space bar as fast as possible when they see an Upright Orange T.</li>
-          <li>On completing, the users can see the average time taken for different number of items.</li>
-        </ul>
-      </div>
+  <div class="v-collapsible-instruction-container v-instruction-container">
+    <div id="instruction-title" class="v-collapsible is-size-5">
+      Instructions for performing Visual Search Task
     </div>
-  <button class="v-button" id="start-button">Start</button>
+    <div class="v-content">
+      <ul style="list-style: disc; text-align: left;">
+        <li>There will be Upright and Inverted T's of Orange and Blue color displayed on the screen.</li>
+        <li>Your task is to find the <b>Upright Orange T</b> as quickly as possible.</li>
+        <li>
+          There are two types of search tasks:
+          <ul>
+            <li><b>Singleton Search:</b> The target differs by <b>one feature</b> (e.g., color).</li>
+            <li><b>Conjunctive Search:</b> The target differs by <b>two features</b> (e.g., color and orientation).</li>
+          </ul>
+        </li>
+        <li>Press the <b>spacebar</b> as fast as possible when you spot the Upright Orange T within 5 seconds.<strong>(You have 5 seconds to respond)</strong>.</li>
+        <li>Don't press the <b>spacebar</b> for 5 seconds if the target is not found. The trial will end automatically.</li>
+        <li>The number of objects (set size) will vary across trials.</li>
+        <li>Your response time and accuracy will be recorded.</li>
+        <li>At the end of the task, you will see the average search times for both Singleton and Conjunctive Search.</li>
+      </ul>
+    </div>
+  </div>
+  
   <div id="game-container"></div>
-  <div id="message-container"></div>
-  <button class="v-button" id="reset-button">Reset</button>
+  <div id="message-container">Results here</div>
+  <div class="buttons">
+    <button class="v-button" id="start-button">Start</button>
+    <button class="v-button" id="reset-button">Reset</button>
+  </div>
   <script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
   <script src="./js/main.js"></script>
 </body>

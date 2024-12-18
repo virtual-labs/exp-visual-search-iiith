@@ -1,7 +1,27 @@
-## Theory
-Visual search is a form of perceptual activity that involves attention, which means you have to focus on what you are looking for and disregard what you are not looking for.  Attention can be controlled by numerous elements, such as the objective of the task, the qualities of the stimuli, and the location of the stimuli.<br>
-Finding a specific visual stimulus amidst additional visual stimuli (distractors) is a fundamental human action known as visual search. The task at hand is to find a target in a visual search experiment. (A distractor is an item that is not the target and is used to distract you from discovering the target). Basically, sensory, perceptual, and cognitive processes all play a role in visual search.<br>
-In the context of visual search, singleton refers to a feature that is unique and different from all other features in the display. For example, if all items in the display are circles except for one square, then the square is a singleton feature. Singleton features can attract attention automatically because they stand out from the rest of the display. This is called the "pop out" effect.  Singleton features can make visual search easier and faster because they reduce the need to scan the whole display.<br>
-Conjunctive search refers to searching for an object that has two or more features that must be present together for it to be detected. For example, searching for a red circle among blue circles and red squares. Conjunctive search is more difficult and slower than singleton search because it requires combining information from different feature maps. Conjunctive search also requires more attentional resources because it involves comparing each item in the display with the target.<br>
-Visual search tasks are an everyday part of the human experience - ranging from hunting for a specific recipe ingredient in the pantry to monitoring for road hazards, informational signs while driving, looking for a friend in the college crowd, looking for our car in the parking lot, or looking for the specific vegetable in the vegetable aisle at the supermarket. Visual search experiments provide a closer approximation to the actions of attention in the real world.<br>
-Visual search is an important topic in psychology and neuroscience because it helps us understand how we perceive and process complex visual scenes. Visual search also has many practical applications in fields such as medicine, security, education, and entertainment.
+## Theory  
+
+Visual search is the process of finding something specific in a group of other items. It requires focus, or attention, to pick out what you’re looking for and ignore everything else. Many factors influence how well we can focus, such as the goal of the task, what the items look like, and where they are located.  
+
+In a visual search experiment, your task is to find a target among other distracting items, called distractors. Distractors are objects that aren’t the target and are there to make the task harder. Finding the target involves using your senses, perception, and thinking skills all at once.  
+
+### Singleton Search  
+A singleton is something unique that stands out from the rest. For example, if all the items in a display are circles except for one square, the square is the singleton. Because singletons are different from everything else, they automatically grab your attention. This is known as the “pop-out” effect, and it makes searching much faster and easier since you don’t have to carefully scan the entire display.  
+
+### Conjunctive Search  
+Conjunctive search is when the target is defined by a combination of features. For instance, imagine searching for a red circle among blue circles and red squares. The target isn’t unique by color or shape alone, so you need to focus on both features together. This makes conjunctive searches slower and more difficult because they require more mental effort and attention to compare each item to the target.  
+
+### Visual Search in Everyday Life  
+Visual search is something we do all the time in real life, such as:  
+- Finding a spice jar in the pantry.  
+- Looking for a friend in a crowded room.  
+
+These everyday tasks show how we use visual search to pay attention and find what we need in complex scenes. Visual search experiments are designed to mimic these real-world situations so we can better understand how attention works.  
+
+### Why Visual Search Matters  
+Visual search is important in psychology and neuroscience because it helps us understand how we process the world around us. It also has many practical uses, like:  
+- Medicine: Identifying abnormalities in medical scans.  
+- Security: Spotting threats or suspicious items.  
+- Education: Improving learning tools for students.  
+- Entertainment: Designing engaging games or virtual experiences.  
+
+By studying visual search, we can learn more about how people focus, process information, and make decisions in a variety of settings.  
