@@ -2,55 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the main difference between singleton and conjunctive visual search?",
+      "question": "What role does attentional load play in the accuracy of visual search tasks?",
       "answers": {
-        "a": "Singleton search involves searching for a specific color, while conjunctive search involves searching for multiple colors.",
-        "b": "Singleton search is faster and more accurate than conjunctive search.",
-        "c": "Singleton search involves searching for a target with a single distinct feature, while conjunctive search involves searching for a target defined by a combination of features.",
-        "d": "Singleton search is more challenging than conjunctive search."
+        "a": "Higher attentional load improves accuracy by focusing perception.",
+        "b": "Lower attentional load increases the risk of false alarms.",
+        "c": "High attentional load can reduce accuracy due to divided attention.",
+        "d": "Attentional load does not influence search performance."
       },
       "explanations": {
-        "a": "This is incorrect because conjunctive search is not only about multiple colors but also other features like shape.",
-        "b": "Although singleton search is generally faster, this option does not fully explain the difference.",
-        "c": "Correct! Singleton search focuses on one distinct feature, while conjunctive search requires combining multiple features.",
-        "d": "This is incorrect; conjunctive search is more challenging than singleton search."
+        "a": "Incorrect. High load often impairs accuracy due to limited cognitive resources.",
+        "b": "Incorrect. Lower load typically improves performance.",
+        "c": "Correct! Dividing attention makes it harder to detect targets accurately.",
+        "d": "Incorrect. Attentional load is a key factor in performance outcomes."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "What is a distractor in a visual search task?",
+      "question": "How does visual crowding affect target detection in peripheral vision?",
       "answers": {
-        "a": "An object that helps in locating the target.",
-        "b": "An object that is irrelevant and intended to divert attention from the target.",
-        "c": "An object that is identical to the target.",
-        "d": "An object used to speed up response time."
+        "a": "It improves detection by enhancing contrast.",
+        "b": "It impairs detection by making target features harder to isolate.",
+        "c": "It has no effect on target perception outside central vision.",
+        "d": "It increases search speed due to reduced detail."
       },
       "explanations": {
-        "a": "Distractors do not help in locating the target; they are meant to divert attention.",
-        "b": "Correct! A distractor is an irrelevant object that makes it harder to find the target.",
-        "c": "This is incorrect because distractors are not identical to the target.",
-        "d": "Distractors generally slow down response time, not speed it up."
+        "a": "Incorrect. Crowding tends to reduce contrast and clarity.",
+        "b": "Correct! In peripheral vision, nearby items can obscure the target's features.",
+        "c": "Incorrect. Crowding significantly affects peripheral detection.",
+        "d": "Incorrect. It slows search by decreasing visibility and precision."
       },
       "correctAnswer": "b",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "How does increasing the set size affect response time in conjunctive search?",
+      "question": "Which factor is most likely to facilitate a faster visual search in dynamic (moving) environments?",
       "answers": {
-        "a": "Response time decreases as set size increases.",
-        "b": "Response time remains the same regardless of set size.",
-        "c": "Response time increases because more items need to be analyzed to locate the target.",
-        "d": "Response time is unaffected in conjunctive search but increases in singleton search."
+        "a": "High target-distractor similarity",
+        "b": "Stable and predictable motion of the target",
+        "c": "Random and unpredictable distractor motion",
+        "d": "Increased number of moving distractors"
       },
       "explanations": {
-        "a": "This is incorrect; increasing the set size generally increases response time in conjunctive search.",
-        "b": "This is incorrect because set size directly influences the time needed to locate the target in conjunctive search.",
-        "c": "Correct! In conjunctive search, response time increases as the set size grows because more items must be examined.",
-        "d": "This is incorrect; conjunctive search is affected by set size, while singleton search is less influenced."
+        "a": "Incorrect. Similarity increases search difficulty.",
+        "b": "Correct! Predictable motion allows attention to track the target more efficiently.",
+        "c": "Incorrect. Random distractor movement makes search harder.",
+        "d": "Incorrect. More moving distractors increase cognitive demand."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }

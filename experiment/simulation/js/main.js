@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
     tLetter.className = 't-letter';
     tLetter.textContent = 'T';
     tLetter.style.color = color;
+    tLetter.style.fontSize = '25px';
     tLetter.style.position = 'absolute';
     tLetter.dataset.orientation = orientation;
 
@@ -157,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
       currentTrial++;
       const itemsCount = minItems + (currentTrial - 1) * itemsStep;
       messageContainer.innerHTML = `Trial ${currentTrial}: Find the upright orange "T"`;
-      setTimeout(() => createSearchDisplay(itemsCount), 200);
+      setTimeout(() => createSearchDisplay(itemsCount), 400);
     } else {
       endSimulation();
     }
