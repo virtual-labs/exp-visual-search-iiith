@@ -1,1 +1,1 @@
-## Experiment name
+## Visual Search - Singleton & Conjunctive

@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What role does attentional load play in the accuracy of visual search tasks?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Higher attentional load improves accuracy by focusing perception.",
+        "b": "Lower attentional load increases the risk of false alarms.",
+        "c": "High attentional load can reduce accuracy due to divided attention.",
+        "d": "Attentional load does not influence search performance."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. High load often impairs accuracy due to limited cognitive resources.",
+        "b": "Incorrect. Lower load typically improves performance.",
+        "c": "Correct! Dividing attention makes it harder to detect targets accurately.",
+        "d": "Incorrect. Attentional load is a key factor in performance outcomes."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does visual crowding affect target detection in peripheral vision?",
+      "answers": {
+        "a": "It improves detection by enhancing contrast.",
+        "b": "It impairs detection by making target features harder to isolate.",
+        "c": "It has no effect on target perception outside central vision.",
+        "d": "It increases search speed due to reduced detail."
+      },
+      "explanations": {
+        "a": "Incorrect. Crowding tends to reduce contrast and clarity.",
+        "b": "Correct! In peripheral vision, nearby items can obscure the target's features.",
+        "c": "Incorrect. Crowding significantly affects peripheral detection.",
+        "d": "Incorrect. It slows search by decreasing visibility and precision."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which factor is most likely to facilitate a faster visual search in dynamic (moving) environments?",
+      "answers": {
+        "a": "High target-distractor similarity",
+        "b": "Stable and predictable motion of the target",
+        "c": "Random and unpredictable distractor motion",
+        "d": "Increased number of moving distractors"
+      },
+      "explanations": {
+        "a": "Incorrect. Similarity increases search difficulty.",
+        "b": "Correct! Predictable motion allows attention to track the target more efficiently.",
+        "c": "Incorrect. Random distractor movement makes search harder.",
+        "d": "Incorrect. More moving distractors increase cognitive demand."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }

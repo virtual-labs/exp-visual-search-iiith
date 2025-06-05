@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T Find Simulation</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/css/style.min.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+  <div class="v-collapsible-instruction-container v-instruction-container">
+    <div id="instruction-title" class="v-collapsible is-size-5">
+      Instructions for performing Visual Search Task
+    </div>
+    <div class="v-content">
+      <ul style="list-style: disc; text-align: left;">
+        <li>There will be Upright and Inverted T's of Orange and Blue color displayed on the screen.</li>
+        <li>Your task is to find the <b>Upright Orange T</b> as quickly as possible.</li>
+        <li>
+          There are two types of search tasks:
+          <ul>
+            <li><b>Singleton Search:</b> The target differs by <b>one feature</b> (e.g., color).</li>
+            <li><b>Conjunctive Search:</b> The target differs by <b>two features</b> (e.g., color and orientation).</li>
+          </ul>
+        </li>
+        <li>Press the <b>spacebar</b> as fast as possible when you spot the Upright Orange T within 5 seconds.<strong>(You have 5 seconds to respond)</strong>.</li>
+        <li>Don't press the <b>spacebar</b> for 5 seconds if the target is not found. The trial will end automatically.</li>
+        <li>The number of objects (set size) will vary across trials.</li>
+        <li>Your response time and accuracy will be recorded.</li>
+        <li>At the end of the task, you will see the average search times for both Singleton and Conjunctive Search.</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="v-note is-info" style="margin: 20px;">
+    <p><strong style="color: #f44336;">Important:</strong> Press the <b>spacebar</b> as fast as possible when you spot the <b>Upright Orange T</b> within 5 seconds. (You have 5 seconds to respond.)</p>
+    <p>Don't press the <b>spacebar</b> if the target is not found. The trial will end automatically after 5 seconds.</p>
+  </div>
+  
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+  <div id="game-container"></div>
+  <div id="message-container">Results here</div>
+  <div class="buttons">
+    <button class="v-button" id="start-button" style="background-color: #4CAF50; color: white;">
+      Start
+    </button>
+    <button class="v-button" id="reset-button" style="background-color: #f44336; color: white;">
+      Reset
+    </button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/gh/virtual-labs/virtual-style@0.0.8-b/js/script.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
