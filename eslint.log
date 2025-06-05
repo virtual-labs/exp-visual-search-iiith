@@ -1,0 +1,6 @@
+
+/home/runner/work/exp-visual-search-iiith/exp-visual-search-iiith/experiment/simulation/js/main.js
+  9:9  warning  'maxItems' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+

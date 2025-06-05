@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What does the term 'singleton' refer to in a visual search task?",
+      "answers": {
+        "a": "An object that shares features with all other objects in the display.",
+        "b": "An object that has a unique feature making it stand out from other objects.",
+        "c": "A task where the target is absent from the display.",
+        "d": "An object that is identical to another in the display."
+      },
+      "explanations": {
+        "a": "This is incorrect because a singleton does not share features with other objects.",
+        "b": "Correct! A singleton has a unique feature that makes it stand out.",
+        "c": "This describes a different condition, not the definition of a singleton.",
+        "d": "This is incorrect; a singleton is unique and not identical to another object."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following best describes a conjunctive search?",
+      "answers": {
+        "a": "A search for a target defined by one unique feature.",
+        "b": "A search for a target absent from the display.",
+        "c": "A search for a target defined by a combination of features.",
+        "d": "A search where the target and distractors have no overlapping features."
+      },
+      "explanations": {
+        "a": "This describes a singleton search, not a conjunctive search.",
+        "b": "This describes a different scenario, not a conjunctive search.",
+        "c": "Correct! A conjunctive search involves finding a target that has a specific combination of features.",
+        "d": "This is incorrect; distractors often have overlapping features in conjunctive searches."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why might response time increase in a conjunctive search as compared to a singleton search?",
+      "answers": {
+        "a": "Because conjunctive search involves fewer distractors.",
+        "b": "Because conjunctive search requires combining multiple features to find the target.",
+        "c": "Because singleton search requires more attentional resources.",
+        "d": "Because the target in a conjunctive search always looks identical to the distractors."
+      },
+      "explanations": {
+        "a": "This is incorrect; conjunctive search often involves more distractors.",
+        "b": "Correct! Conjunctive search takes more time because it requires attention to multiple features.",
+        "c": "This is incorrect; singleton search requires less attention compared to conjunctive search.",
+        "d": "This is incorrect because the target does not look identical to the distractors in a conjunctive search."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
